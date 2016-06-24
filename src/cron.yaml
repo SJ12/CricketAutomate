@@ -1,0 +1,8 @@
+cron:
+- description: push scores
+  url: /?push=1
+  schedule: every 2 minutes
+- description: check for live matches
+  url: /?check=1
+  schedule: every 1 hours
+ 
